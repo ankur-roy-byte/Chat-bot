@@ -1,0 +1,14 @@
+include README.md
+include LICENSE
+include CONTRIBUTING.md
+include CODE_OF_CONDUCT.md
+include SECURITY.md
+include CHANGELOG.md
+include DEPLOYMENT.md
+include requirements.txt
+include .env.example
+include .editorconfig
+recursive-include static *
+recursive-include templates *
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
